@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.StackPane?>
+
+<StackPane fx:id="stackPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="618.0" prefWidth="884.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ticketapp.CheckoutController">
+   <children>
+      <GridPane fx:id="gridPane">
+        <columnConstraints>
+            <ColumnConstraints hgrow="ALWAYS" maxWidth="-Infinity" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="ALWAYS" maxWidth="1.7976931348623157E308" minWidth="50.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="40.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="40.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="40.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="40.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="40.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="40.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label fx:id="cartLabel" text="Your Cart:" GridPane.columnIndex="1" />
+            <Label fx:id="performanceLabel1" text="Pink Floyd - The Wall" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <Label fx:id="sectionLabel1" text="Section" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+            <Label fx:id="rowLabel1" text="Row" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+            <Label fx:id="seatLabel1" text="Seat" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+            <Label fx:id="priceLabel1" text="Price" GridPane.columnIndex="5" GridPane.rowIndex="2" />
+            <Label fx:id="performanceLabel2" text="Performance" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <Label fx:id="sectionLabel2" text="Section" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+            <Label fx:id="rowLabel2" text="Row" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+            <Label fx:id="seatLabel2" text="Seat" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+            <Label fx:id="priceLabel2" text="Price" GridPane.columnIndex="5" GridPane.rowIndex="3" />
+            <Label fx:id="performanceLabel3" text="Performance" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+            <Label fx:id="sectionLabel3" text="Section" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+            <Label fx:id="rowLabel3" text="Row" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+            <Label fx:id="seatLabel3" text="Seat" GridPane.columnIndex="4" GridPane.rowIndex="4" />
+            <Label fx:id="priceLabel3" text="Price" GridPane.columnIndex="5" GridPane.rowIndex="4" />
+            <Label fx:id="performanceLabel4" text="Performance" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+            <Label fx:id="sectionLabel4" text="Section" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+            <Label fx:id="rowLabel4" text="Row" GridPane.columnIndex="3" GridPane.rowIndex="5" />
+            <Label fx:id="seatLabel4" text="Seat" GridPane.columnIndex="4" GridPane.rowIndex="5" />
+            <Label fx:id="priceLabel4" text="Price" GridPane.columnIndex="5" GridPane.rowIndex="5" />
+            <Label fx:id="performanceLabel5" text="Performance" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+            <Label fx:id="sectionLabel5" text="Section" GridPane.columnIndex="2" GridPane.rowIndex="6" />
+            <Label fx:id="rowLabel5" text="Row" GridPane.columnIndex="3" GridPane.rowIndex="6" />
+            <Label fx:id="seatLabel5" text="Seat" GridPane.columnIndex="4" GridPane.rowIndex="6" />
+            <Label fx:id="priceLabel5" text="Price" GridPane.columnIndex="5" GridPane.rowIndex="6" />
+            <Label text="Total:" GridPane.columnIndex="4" GridPane.rowIndex="8" />
+            <Label fx:id="totalPriceLabel" text="Total Price" GridPane.columnIndex="5" GridPane.rowIndex="8" />
+            <Label fx:id="nameLabel" text="Name (First and Last)" GridPane.columnIndex="1" GridPane.rowIndex="11" />
+            <TextField fx:id="nameTextField" GridPane.columnIndex="2" GridPane.rowIndex="11" />
+            <TextField fx:id="addressTextField" GridPane.columnIndex="2" GridPane.rowIndex="12" />
+            <Label fx:id="addressLabel" text="Address" GridPane.columnIndex="1" GridPane.rowIndex="12" />
+            <Label fx:id="stateLabel" text="State" GridPane.columnIndex="1" GridPane.rowIndex="14" />
+            <Label fx:id="zipLabel" text="Zip" GridPane.columnIndex="1" GridPane.rowIndex="15" />
+            <Label fx:id="emailLabel" text="Email" GridPane.columnIndex="1" GridPane.rowIndex="16" />
+            <TextField fx:id="stateTextField" GridPane.columnIndex="2" GridPane.rowIndex="14" />
+            <TextField fx:id="zipTextField" GridPane.columnIndex="2" GridPane.rowIndex="15" />
+            <TextField fx:id="emailTextField" GridPane.columnIndex="2" GridPane.rowIndex="16" />
+            <Button fx:id="checkoutButton" mnemonicParsing="false" onAction="#onCheckOutButtonClicked" text="Checkout" GridPane.columnIndex="2" GridPane.rowIndex="17" />
+            <Button fx:id="buttonTicket1" mnemonicParsing="false" onAction="#onButton1Clicked" text="Button" GridPane.columnIndex="6" GridPane.rowIndex="2" />
+            <Button fx:id="buttonTicket2" mnemonicParsing="false" onAction="#onButton2Clicked" text="Button" GridPane.columnIndex="6" GridPane.rowIndex="3" />
+            <Button fx:id="buttonTicket3" mnemonicParsing="false" onAction="#onButton3Clicked" text="Button" GridPane.columnIndex="6" GridPane.rowIndex="4" />
+            <Button fx:id="buttonTicket4" mnemonicParsing="false" onAction="#onButton4Clicked" text="Button" GridPane.columnIndex="6" GridPane.rowIndex="5" />
+            <Button fx:id="buttonTicket5" mnemonicParsing="false" onAction="#onButton5Clicked" text="Button" GridPane.columnIndex="6" GridPane.rowIndex="6" />
+            <Label fx:id="orderDetailsLabel" opacity="0.0" text="Order Details" GridPane.columnIndex="3" GridPane.rowIndex="10" />
+            <Label fx:id="orderNumberLabel" opacity="0.0" text="Order Number" GridPane.columnIndex="3" GridPane.rowIndex="11" />
+            <Label fx:id="ticket1Label" opacity="0.0" text="Ticket 1" GridPane.columnIndex="4" GridPane.rowIndex="12" />
+            <Label fx:id="ticket2Label" opacity="0.0" text="Ticket 2" GridPane.columnIndex="4" GridPane.rowIndex="13" />
+            <Label fx:id="ticket3Label" opacity="0.0" text="Ticket 3" GridPane.columnIndex="4" GridPane.rowIndex="14" />
+            <Label fx:id="ticket4Label" opacity="0.0" text="Ticket 4" GridPane.columnIndex="4" GridPane.rowIndex="15" />
+            <Label fx:id="ticket5Label" opacity="0.0" text="Ticket 5" GridPane.columnIndex="4" GridPane.rowIndex="16" />
+            <Label fx:id="serial1Label" opacity="0.0" text="Serial Number" GridPane.columnIndex="5" GridPane.rowIndex="12" />
+            <Label fx:id="serial2Label" opacity="0.0" text="Serial Number" GridPane.columnIndex="5" GridPane.rowIndex="13" />
+            <Label fx:id="serial3Label" opacity="0.0" text="Serial Number" GridPane.columnIndex="5" GridPane.rowIndex="14" />
+            <Label fx:id="serial4Label" opacity="0.0" text="Serial Number" GridPane.columnIndex="5" GridPane.rowIndex="15" />
+            <Label fx:id="serial5Label" opacity="0.0" text="Serial Number" GridPane.columnIndex="5" GridPane.rowIndex="16" />
+            <ImageView fx:id="imgView1" fitHeight="32.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="6" GridPane.rowIndex="12">
+               <GridPane.margin>
+                  <Insets bottom="5.0" />
+               </GridPane.margin></ImageView>
+            <ImageView fx:id="imgView2" fitHeight="29.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="6" GridPane.rowIndex="13">
+               <GridPane.margin>
+                  <Insets bottom="5.0" top="5.0" />
+               </GridPane.margin></ImageView>
+            <ImageView fx:id="imgView3" fitHeight="29.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="6" GridPane.rowIndex="14">
+               <GridPane.margin>
+                  <Insets bottom="5.0" top="5.0" />
+               </GridPane.margin></ImageView>
+            <ImageView fx:id="imgView4" fitHeight="32.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="6" GridPane.rowIndex="15">
+               <GridPane.margin>
+                  <Insets bottom="5.0" top="5.0" />
+               </GridPane.margin></ImageView>
+            <ImageView fx:id="imgView5" fitHeight="32.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="6" GridPane.rowIndex="16">
+               <GridPane.margin>
+                  <Insets bottom="5.0" top="5.0" />
+               </GridPane.margin></ImageView>
+            <Separator prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Separator prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+            <Separator prefWidth="200.0" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+            <Separator prefWidth="200.0" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+            <Separator prefWidth="200.0" GridPane.columnIndex="5" GridPane.rowIndex="1" />
+            <Separator prefWidth="200.0" GridPane.columnIndex="3" GridPane.rowIndex="9" />
+            <Separator prefWidth="200.0" GridPane.columnIndex="4" GridPane.rowIndex="9" />
+            <Separator prefWidth="200.0" GridPane.columnIndex="5" GridPane.rowIndex="9" />
+            <Label fx:id="cityLabel" text="City" GridPane.columnIndex="1" GridPane.rowIndex="13" />
+            <TextField fx:id="cityTextField" GridPane.columnIndex="2" GridPane.rowIndex="13" />
+         </children>
+      </GridPane>
+   </children>
+</StackPane>

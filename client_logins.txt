@@ -1,0 +1,3 @@
+client@gmail.com,password123!
+ltg@gmail.com,password123!
+ctg@gmail.com,password123!

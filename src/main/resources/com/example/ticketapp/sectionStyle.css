@@ -1,0 +1,92 @@
+/* seating-chart.css */
+.root {
+    -fx-font-family: "Arial", sans-serif;
+}
+
+/* Example: Set background color for a specific GridPane */
+.grid-pane {
+    -fx-background-color: 'blue'; /* Light gray background */
+}
+
+.section-label {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: 'white';
+    -fx-alignment: center;
+    -fx-padding: 10px;
+    -fx-background-color: #ecf0f1;
+}
+
+.row-label {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: 'white';
+    -fx-alignment: center-right;
+    -fx-padding: 5px;
+}
+
+.grid {
+    -fx-hgap: 10px; /* Horizontal gap between grid cells */
+    -fx-vgap: 10px; /* Vertical gap between grid cells */
+    -fx-padding: 10px; /* Padding around the grid */
+}
+
+.radio-button {
+    -fx-scale-x: 0.8; /* Adjust the scale in X direction */
+    -fx-scale-y: 0.8; /* Adjust the scale in Y direction */
+    -fx-padding: 10px;
+    -fx-font-size: 14px;
+    -fx-cursor: hand; /* for cursor pointer */
+    -fx-alignment: center-right; /* for align-items: center and justify-content: flex-end */
+}
+
+.radio-button .radio {
+    -fx-background-radius: 50%;
+    -fx-min-width: 10px;
+    -fx-min-height: 10px;
+    -fx-max-width: 10px;
+    -fx-max-height: 10px;
+    -fx-background-color: #13f702;
+}
+
+.radio-button:selected .radio {
+    -fx-background-color: #e90729;
+}
+
+.radio-button:disabled .radio {
+    -fx-background-color: #ff0000;
+}
+
+.radio-button:hover {
+    -fx-cursor: hand;
+}
+.tooltip {
+    -fx-font-size: 12px;
+    -fx-background-color: black;
+    -fx-text-fill: red;
+    -fx-border-color: #b3b3b3; // You can adjust this as needed
+    -fx-border-width: 1px;
+    -fx-padding: 5px;
+    -fx-opacity: 0.9;
+}
+
+.button {
+    -fx-background-color: #c62d1f;
+    -fx-background-radius: 18px;
+    -fx-border-color: #d02718;
+    -fx-border-radius: 18px;
+    -fx-border-width: 1px;
+    -fx-text-fill: white;
+    -fx-font-family: Arial;
+    -fx-font-size: 12px;
+    -fx-padding: 7px 25px;
+}
+
+.button:hover {
+    -fx-background-color: #f24437;
+}
+
+.button:pressed {
+    -fx-background-color: #c62d1f;
+    -fx-translate-y: 1px;
+}
