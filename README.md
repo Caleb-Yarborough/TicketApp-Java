@@ -33,3 +33,26 @@ A Java-based desktop application for managing ticket sales, venue seating, and c
 3. Build the project:
    mvn clean install
 4. Run the application (via JavaFX main class or your IDE)
+
+
+### Demo Logins
+
+#### Customer Accounts
+- **Email:** `rickybobby7@gmail.com`  
+  **Password:** `password123!`
+
+- **Email:** `customer@gmail.com`  
+  **Password:** `testing123!`
+
+- **Email:** `bobbyjoe@yahoo.com`  
+  **Password:** `seventyseven`
+
+#### Client Accounts
+- **Email:** `client@gmail.com`  
+  **Password:** `password123!`
+
+- **Email:** `ltg@gmail.com`  
+  **Password:** `password123!`
+
+- **Email:** `ctg@gmail.com`  
+  **Password:** `password123!`
